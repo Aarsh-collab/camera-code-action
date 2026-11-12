@@ -11,3 +11,5 @@ Camera_Code_Action_Instructor.with-outputs.ipynb
 input_video.mp4
 outputs/
 workshop-slides/
+# downloaded automatically by the notebook
+hand_landmarker.task

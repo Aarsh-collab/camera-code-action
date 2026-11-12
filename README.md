@@ -48,7 +48,6 @@ jupyter notebook Camera_Code_Action_Instructor.ipynb
 | Path | What it is |
 |---|---|
 | `Camera_Code_Action_Instructor.ipynb` | The complete workshop notebook, with all code working |
-| `hand_landmarker.task` | MediaPipe hand landmark model (float16, v1) |
 | `requirements.txt` | Tested dependency versions for local runs |
 
 ## Notebook outline
