@@ -1,0 +1,21 @@
+# Camera, Code, Action! — tested dependency versions
+#
+# In Google Colab you do NOT need this file: the notebook's setup cell runs
+#   pip install --no-deps mediapipe==1.1.1
+#   pip install "absl-py>=2.3" certifi "flatbuffers~=25.9" "sounddevice~=0.5"
+# and reuses Colab's preinstalled OpenCV, NumPy, Matplotlib and IPython.
+# (--no-deps stops MediaPipe from installing opencv-contrib-python 5.x on top of
+# Colab's OpenCV 4.x.)
+#
+# For a local run (tested with Python 3.12), install with:
+#   pip install --no-deps mediapipe==1.1.1 && pip install -r requirements.txt
+# FFmpeg must also be on PATH (preinstalled in Colab).
+
+absl-py>=2.3
+certifi
+flatbuffers~=25.9
+sounddevice~=0.5
+opencv-python-headless==4.14.0.94
+numpy==2.0.2
+matplotlib
+ipython

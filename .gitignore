@@ -1,0 +1,13 @@
+.DS_Store
+.venv/
+.ipynb_checkpoints/
+__pycache__/
+# slide build scratch files
+.slide-build/
+# empty placeholder notebook
+Camera_Code_Action.ipynb
+# private: contains recordings / photos of the presenter
+Camera_Code_Action_Instructor.with-outputs.ipynb
+input_video.mp4
+outputs/
+workshop-slides/
